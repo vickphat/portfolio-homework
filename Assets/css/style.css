@@ -14,21 +14,29 @@ body {
 a {
     color: #ffffff;
     text-decoration: underline;
-    
+    padding: 15px;
 }
 
 a:hover {
-box-shadow: inset 0px 0px 8px blue, 0 0 15px red;
+box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
 }
 
 /* Paragraphs font size */
 p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 img {
     width: 250px;
     height: 250px;
+    border-radius: 25px;
+}
+
+main section ul li {
+    display: inline-block;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding: 10px;
 }
  
 .profile {
@@ -70,26 +78,46 @@ header h1 {
     display: inline-block;
     font-size: 48px;
     background-color: blue;
+    padding: 30px;
+    height: auto;
+
 }
 
 .info {
     width: 75%;
-    display: inline-block;     
+    display: inline-block;  
+       
 }
 
 .info-style {
     margin-bottom: 20px;
     padding: 50px;
     height: 400px;
-
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: blue;
+    background-color: black;
     color: #ffffff; 
 }
 
-.info-style h2 {
+h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 45px;
+    text-align: center;
 }
 
 
+.code-card {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 3rem;
+    color: white;
+    background-color: black;
+  
+    /* outline is like border, but on the outside of the box instead of inside */
+    outline: 2px solid blue;
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+  }
+
+ 
