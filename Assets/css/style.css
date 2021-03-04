@@ -21,6 +21,16 @@ p {
     font-size: 20px;
 }
 
+.profile {
+    height: 900px;
+    width: 45%;
+    margin-bottom: 60px;
+    background-image: url(../images/male-placeholder-image.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,6 +58,7 @@ header div ul li {
 header h1 {
     display: inline-block;
     font-size: 48px;
+    background-color: blue;
 }
 
 .info {
@@ -61,7 +72,7 @@ header h1 {
     height: 400px;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: red;
+    background-color: blue;
     color: #ffffff; 
 }
 
