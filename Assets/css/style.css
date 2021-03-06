@@ -27,7 +27,7 @@ p {
 }
 
 img {
-    width: 50%;
+    width: 70%;
     height: 70%;
     border-radius: 25px;
 }
@@ -116,23 +116,18 @@ h2 {
     background-color: red;
 }
 
-.container {
-    padding: 6px 16px;
-}
-
 .card {
     display: flex;
+    flex-wrap: wrap;
     width: 50%;
     padding: 10px; 
 }
   
-
-
-.big {
-    object-fit: contain;
-    display: flex;
-    text-align: center;
-    
+.card-big {
+    width: 90%;
+    padding: 10px; 
+    object-fit: cover;
+    text-align: center;  
 }
 
 
