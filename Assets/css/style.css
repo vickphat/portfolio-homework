@@ -3,6 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: white;
+    font-family: monospace, sans-serif;
 }
 
 /* Sets webpage background */
@@ -11,19 +13,20 @@ body {
 }
 
 /* Sets link to the color white */
-a {
-    color: #ffffff;
+.link {
+    color: white;
     text-decoration: underline;
     padding: 15px;
 }
 
-a:hover {
+.link:hover {
 box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
 }
 
 /* Paragraphs font size */
 p {
     font-size: 25px;
+    display: inline-flexbox;
 }
 
 img {
@@ -32,11 +35,13 @@ img {
     border-radius: 25px;
 }
 
+
 main section ul li {
     display: inline-block;
     flex-wrap: wrap;
     font-size: 25px;
     padding: 10px;
+    margin-bottom: 20px;
 }
  
 .profile {
@@ -52,16 +57,16 @@ main section ul li {
 
 header {
     padding: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
     background-color: black;
     color: #ffffff;
 }
 
 header div {
-    padding-top: 15px;
+    padding: 30px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     font-size: 40px;
 }
 
@@ -75,9 +80,9 @@ header div ul li {
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
-    background-color: blue;
+    display: inline;
+    font-size: 70px;
+    background-color: red;
     padding: 30px;
     height: auto;
 
@@ -85,7 +90,8 @@ header h1 {
 
 .info {
     width: 75%;
-    display: inline-block;  
+    display: inline-block;
+    flex-wrap: wrap;  
        
 }
 
@@ -93,31 +99,48 @@ header h1 {
     margin-bottom: 20px;
     padding: 50px;
     height: 400px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: sans-serif;
     background-color: black;
     color: #ffffff; 
+   
 }
 
 h2 {
     margin-bottom: 20px;
     font-size: 45px;
-    text-align: center;
+    text-align: center; 
 }
 
-
-.code-card {
-    display: inline-block;
-    flex-direction: row;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 3rem;
-    color: white;
-    background-color: black;
+.container {
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+}
   
-    /* outline is like border, but on the outside of the box instead of inside */
-    outline: 2px solid blue;
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-  }
+.text-block {
+    position: absolute;
+    top: 5px ;
+    left: 20px;
+    background-color: black;
+    opacity: 75%;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
- 
+.big {
+    height: 50%;
+    width: 50%;
+}
+
+.normal {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
