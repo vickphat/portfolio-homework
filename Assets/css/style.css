@@ -1,6 +1,6 @@
 /* universal element */
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
     color: white;
     font-family: monospace, sans-serif;
 }
@@ -16,12 +16,12 @@ img {
     height: 70%;
     border-radius: 25px;
     border-radius: 8px;
-    transition: all 0.5s ease-in-out;
 }
 
-/* Highlights picture with red and blue border */
+/* Highlights Picture With Red & Blue Border */
 img:hover {
-    box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
+    box-shadow: inset 0px 0px 10px black, 0 0 50px red;
+    
 }
 
 /* NavBar */
@@ -31,7 +31,7 @@ nav {
     padding: auto;
 }
 
-/* Highlights NavBars links */
+/* Highlights NavBars Links */
 nav ul li:hover {
 box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
 }
@@ -79,22 +79,24 @@ h2 {
     background-color: red;
 }
 
-/* Paragraphs font size */
+/* Paragraphs Font Size */
 p {
     font-size: 25px;  
 }
 
-/* Profile picture */
+/* Profile Picture */
 .profile {
-    height: 50rem;
+    height: 1300px;
     width: 45%;
     margin-bottom: 25px;
     margin-top: 25px;
-    background-image: url(../images/male-placeholder-image.jpeg);
-    background-size: auto;
+    background-image: url(../images/20210308_164114.jpg);
+    background-size: 850px;
     background-position: center;
+    object-fit: cover;
 }
 
+/* Contact Info */
 main section ul li {
     display: inline-block;
     flex-wrap: wrap;
@@ -141,3 +143,47 @@ main section ul li {
     text-align: center;  
 }
 
+/* Media Queries */
+@media screen and (max-width: 1314px){
+.card, .card-big, .profile {
+    width: 70%;   
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    header nav ul li{
+        width: 100%;  
+    } 
+}
+
+@media screen and (max-width: 1450px) {
+    .profile{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 600px; 
+        height: 1100px; 
+        margin-top: 20px;
+        
+    } 
+}
+
+@media screen and (max-width: 1450px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        padding: auto;
+        width: 60%;
+        background-color: black;
+    } 
+}
+
+@media screen and (max-width: 1450px) {
+    header h1{
+        display: flex;
+        flex-wrap: wrap;
+        padding: auto;
+        width: 60%;
+        background-color: black;
+    } 
+}
