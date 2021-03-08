@@ -1,4 +1,4 @@
-#PORTFOLIO
+# PORTFOLIO
 
 For this homework assignment, I was tasked with creating a portfolio page.
 
@@ -19,16 +19,21 @@ For this homework assignment, I was tasked with creating a portfolio page.
     * THEN I am presented with a responsive layout that adapts to my viewport
 
 <br>
+<h2>What I Did</h2>
 I decided to keep my portfolio nice and simple. I decided to do a color scheme 
 of red, black and grey with the text being white. I put my name in the top left corner with a red background to make it stand out a bit more. I also put my navigation links for the portfolio up there as well on the right hand side. With the links, when the mouse hovers over it, it creates a red and blue border around it to highlight which link will be clicked. 
+<br>
+After that, I put my most recent picture under my name. It then goes into my first section which is the "About Me" section. Under that section, I put my "Work" section. According to the acceptance criteria, I made the first application image bigger than the rest. Also, in the mock up, it seemed that there was a glow effect while hovering over the image. I have added that into my code as well. As of right now, I have not done any applications yet. Hence, I will be placing placeholder images. In the future, when I start developing applications, I will update this portfolio. The last section will be my "Contact" section. In this section, I placed my email, phone number, github link and a LinkedIn. I did not put a link for my LinkedIn page as I have not updated it yet. 
 
-After that, I put my most recent picture under my name. It then goes into my first section which is the "About Me" section. Under that section, I put my "Work" section. According to the acceptance criteria, I made the first application image bigger than the rest. As of right now, I have not done any applications yet. Hence, I will be placing placeholder images. In the future, when I start developing applications, I will update this portfolio. The last section will be my "Contact" section. In this section, I placed my email, phone number, github link and a LinkedIn. I did not put a link for my LinkedIn page as I have not updated it yet. 
 <br>
 <h2>Portfolio Screenshots</h2>
 <br>
 
-<img src="portfolio-homework\Assets\images\profile-screenshot1.JPG">
-<img src="portfolio-homework\Assets\images\profile-screenshot2.JPG">
-<img src="portfolio-homework\Assets\images\profile-screenshot3.JPG">
-<img src="portfolio-homework\Assets\images\profile-screenshot4.JPG">
-    
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot1.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot2.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot3.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot4.JPG">
+
+<br>
+<h2>Link To Portfolio</h2>
+https://vickphat.github.io/vick-portfolio/
