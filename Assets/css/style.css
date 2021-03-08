@@ -10,6 +10,20 @@ body {
     background-color: grey;
 }
 
+/* Set images size and gives it rounded corners */
+img {
+    width: 70%;
+    height: 70%;
+    border-radius: 25px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+/* Highlights picture with red and blue border */
+img:hover {
+    box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
+}
+
 /* NavBar */
 nav {
     color: white;
@@ -28,6 +42,15 @@ header {
     color: #ffffff;
 }
 
+header h1 {
+    display: inline;
+    font-size: 70px;
+    background-color: red;
+    padding: 30px;
+    height: auto;
+    max-width: 30%;
+}
+
 header nav {
     padding: 30px;
     float: right;
@@ -44,15 +67,16 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    text-align: center;
 }
 
-header h1 {
-    display: inline;
-    font-size: 70px;
+
+h2 {
+    margin-bottom: auto;
+    font-size: 45px;
+    text-align: center; 
+    padding: 40px;
     background-color: red;
-    padding: 30px;
-    height: auto;
-    max-width: 30%;
 }
 
 /* Paragraphs font size */
@@ -60,29 +84,6 @@ p {
     font-size: 25px;  
 }
 
-/* Set images size and gives it rounded corners */
-img {
-    width: 70%;
-    height: 70%;
-    border-radius: 25px;
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-}
-
-/* Highlights picture with red and blue border */
-img:hover {
-    box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
-}
-
-
-main section ul li {
-    display: inline-block;
-    flex-wrap: wrap;
-    font-size: 25px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
- 
 /* Profile picture */
 .profile {
     height: 50rem;
@@ -94,6 +95,14 @@ main section ul li {
     background-position: center;
 }
 
+main section ul li {
+    display: inline-block;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+ 
 .info {
     width: 75%;
     display: inline-block;
@@ -114,24 +123,18 @@ main section ul li {
     color: #ffffff; 
 }
 
-h2 {
-    margin-bottom: auto;
-    font-size: 45px;
-    text-align: center; 
-    padding: 40px;
-    background-color: red;
-}
-
 /* Sets display for images */
 .card {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     padding: 10px; 
+    text-align: center;  
 }
   
 /* Enlarges first application image */
 .card-big {
+    max-width: 100%;
     width: 90%;
     padding: 10px; 
     object-fit: cover;
