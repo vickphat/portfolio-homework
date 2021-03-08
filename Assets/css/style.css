@@ -44,8 +44,8 @@ main section ul li {
 .profile {
     height: 50rem;
     width: 45%;
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     background-image: url(../images/male-placeholder-image.jpeg);
     background-size: auto;
     background-position: center;
@@ -61,7 +61,6 @@ header {
 
 header nav {
     padding: 30px;
-    
     float: right;
     font-size: 40px;
 }
