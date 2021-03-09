@@ -32,10 +32,10 @@ I added media queries into my CSS to give my portfolio a reponsive layout.
 <h2>Portfolio Screenshots</h2>
 <br>
 
-<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot1.JPG">
-<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot2.JPG">
-<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot3.JPG">
-<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/profile-screenshot4.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/portfolio-screenshot1.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/portfolio-screenshot2.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/portfolio-screenshot3.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/portfolio-screenshot4.JPG">
 
 <br>
 <h2>Link To Portfolio</h2>
