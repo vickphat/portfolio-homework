@@ -7,7 +7,7 @@ box-sizing: border-box;
 
 /* Sets webpage background */
 body {
-    background-color: grey;
+    background-color: rgb(39, 39, 39);
 }
 
 /* Set images size and gives it rounded corners */
