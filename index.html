@@ -15,6 +15,7 @@
 <body>
     <!-- Navbar -->
     <header>
+        <div class="container-fluid">
         <h1>Vicheka Phat</h1>
         <nav class="navbar navbar-expand-lg bg-black ">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +24,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link text-white" href="#About Me">About Me</a>
+                  <a class="nav-link text-white" href="#AboutMe">About Me</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" href="#Work">Work</a>
@@ -32,19 +33,22 @@
                   <a class="nav-link text-white" href="#Contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#Resume">Resume</a>
+                    <a class="nav-link text-white" href="./resume.html">Resume</a>
                   </li>
               </ul>
               
             </div>
           </nav>
+        </div>
+
+          
     
     </header>
 
     <!-- profile picture -->
     <div class="col-xl-6 card text-white bg-dark mb-3" style="max-width: 50rem;">
         <img src="./Assets/images/20210308_164114.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
+        <div class="card-body" id="AboutMe">
           <h1 class="card-title">About Me</h1>
           <p class="card-text">HELLO! Welcome to my portfolio. My name is Vicheka Phat. However, I prefer
             to go by the name Vick. Currently, I am a partial owner of a nail salon
@@ -54,7 +58,6 @@
             Applied Business with Networking Software. I am currently going to Case Western Reserve
             and I am doing the bootcamp for coding. I believe this will further increase my chances
             of finding a job into the IT world.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
       </div>
     <!-- Main -->
@@ -121,12 +124,6 @@
                 </li>
             </ul>
 
-        </section>
-
-        <!-- Resume -->
-        <h2>Resume</h2>
-        <section id="Resume" class="info-style">
-            <img src="./Assets/images/resume.JPG">
         </section>
 
     </main>
