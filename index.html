@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/reset.css">
     <link rel="stylesheet" href="./Assets/css/style.css">
 
@@ -14,44 +16,50 @@
     <!-- Navbar -->
     <header>
         <h1>Vicheka Phat</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a class="link" href="#About Me">About Me</a>
+        <nav class="navbar navbar-expand-lg bg-black ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#About Me">About Me</a>
                 </li>
-                <li>
-                    <a class="link" href="#Work">Work</a>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#Work">Work</a>
                 </li>
-                <li>
-                    <a class="link" href="#Contact">Contact</a>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#Contact">Contact</a>
                 </li>
-                <li>
-                    <a class="link" href="#Resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#Resume">Resume</a>
+                  </li>
+              </ul>
+              
+            </div>
+          </nav>
+    
     </header>
 
     <!-- profile picture -->
-    <section class="profile"> </section>
-
+    <div class="col-xl-6 card text-white bg-dark mb-3" style="max-width: 50rem;">
+        <img src="./Assets/images/20210308_164114.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h1 class="card-title">About Me</h1>
+          <p class="card-text">HELLO! Welcome to my portfolio. My name is Vicheka Phat. However, I prefer
+            to go by the name Vick. Currently, I am a partial owner of a nail salon
+            located in Westlake. I have been in this line of work for 10 years. I have always
+            been passionate when it came to technology. I have built my own PC in the past and
+            I am currently in the middle of upgrading it now. I have an Associate Degree in
+            Applied Business with Networking Software. I am currently going to Case Western Reserve
+            and I am doing the bootcamp for coding. I believe this will further increase my chances
+            of finding a job into the IT world.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     <!-- Main -->
     <main class="info">
-        <h2>About Me</h2>
-
-        <section id="About Me" class="info-style">
-
-            <p>
-                HELLO! Welcome to my portfolio. My name is Vicheka Phat. However, I prefer
-                to go by the name Vick. Currently, I am a partial owner of a nail salon
-                located in Westlake. I have been in this line of work for 10 years. I have always
-                been passionate when it came to technology. I have built my own PC in the past and
-                I am currently in the middle of upgrading it now. I have an Associate Degree in
-                Applied Business with Networking Software. I am currently going to Case Western Reserve
-                and I am doing the bootcamp for coding. I believe this will further increase my chances
-                of finding a job into the IT world.
-            </p>
-        </section>
+        
 
         <!-- Developers Applications Section -->
         <h2>Work (coming soon)</h2>
