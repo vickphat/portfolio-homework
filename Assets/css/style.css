@@ -42,7 +42,7 @@ box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
     color: #ffffff;
 } */
 
-/* header h1 {
+/* header h1 { 
     display: inline;
     font-size: 70px;
     background-color: red;
@@ -104,13 +104,13 @@ main section ul li {
     padding: 10px;
     margin-bottom: 20px;
 }
- 
+/*  
 .info {
     width: 75%;
     display: inline-block;
     flex-wrap: wrap;  
        
-}
+} */
 
 /* Main sections styling */
 .info-style {
