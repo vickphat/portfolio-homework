@@ -33,8 +33,9 @@ nav {
 
 /* Highlights NavBars Links */
 nav ul li:hover {
-box-shadow: inset 0px 0px 10px blue, 0 0 15px red;
+box-shadow: inset 0px 0px 10px red;
 }
+
 
 /* header {
     padding: 40px;
@@ -142,6 +143,7 @@ main section ul li {
     object-fit: cover;
     text-align: center;  
 }
+
 
 /* Media Queries
 @media screen and (max-width: 1314px){
