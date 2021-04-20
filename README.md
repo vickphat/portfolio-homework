@@ -38,5 +38,18 @@ I added media queries into my CSS to give my portfolio a reponsive layout.
 <img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/portfolio-screenshot4.JPG">
 
 
+
+# UPDATED PORTFOLIO
+
+For this updated version of my portfolio, I kept the color scheme the same with a few minor tweaks. I implemented Bootstrap into my code. I switched out my previous navbar for Bootstraps navbar. I also added some FontAwesome icons. For my profile picture and "About Me" section, I decided to combine those two together by adding a Bootstrap card. In the application section, I decided to go with Bootstraps carousel to create a slide show with 3 of my applications. The first slide is an application of my first group project. The second is my password generator application. The third slide is my weather dashboard application. I have the title on the lower left hand side and the techonology that I used on the right hand side. The pictures are also clickable. By clicking the image, it will redirect you to my deployed application. 
+
+In the contact section, I added a link to my LinkedIn. I also added icons here as well. For my resume, I decided to create a seperate page for it. By clicking the "Resume" link in the navbar, you will be taken to my resume. Here, it will show 2 images of my resume. At the very bottom, there will also be a link to download a PDF version of my resume. I did also change the "About Me" link at the top to show "Home" instead so that way, when clicked, it will bring the user back to the default page. 
+
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio2.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio3.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio4.JPG">
+<img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio5.JPG">
+
 <h2>Link To Portfolio</h2>
 https://vickphat.github.io/vick-portfolio/
