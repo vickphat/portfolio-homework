@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./Assets/css/reset.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="jumbotron bg-dark">
+            <h1 class="display-2 col-lg-6 d-flex">Vicheka Phat</h1>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-black ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-lg-12 d-flex" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white hover" href="./index.html">Home<i
+                                    class="fa fa-home fa-fw"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./work.html">Applications<i
+                                    class="fa fa-archive fa-fw"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./contact.html">Contact<i
+                                    class="fa fa-id-card fa-fw"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="./resume.html">Resume<i
+                                    class="fa fa-file fa-fw"></i></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- Main -->
+    <main class=" container-fluid info">
+
+        <!-- Developers Applications Section -->
+        <h2>Applications</h2>
+        <section id="Applications" class="info-style">
+            <h1 class="col-lg-12 text-center">Click On Image To Go To Application</h1>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" ;>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="https://employee-scheduler-project.herokuapp.com/" target="blank">
+                            <img class="d-block w-100" style="max-width: 80rem; max-height: 40rem;"
+                                src="./Assets/images/project2.JPG" alt="Project 2: employee-scheduler-project">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="float-left text-dark"> Project 2: Employee Scheduler Project</h3>
+                                <h3 class="float-right text-dark">JavaScript, HTML, CSS </h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://vickphat.github.io/password-generator/" target="blank">
+                            <img class="d-block w-100" style="max-width: 80rem; max-height: 40rem;"
+                                src="./Assets/images/password.jpg" alt="Password Generator">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="float-left">Password Generator</h3>
+                                <h3 class="float-right">JavaScript, CSS, HTML</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://vickphat.github.io/weather-dash/" target="blank">
+                            <img class="d-block w-100" style="max-width: 80rem; max-height: 40rem;"
+                                src="./Assets/images/weather2.jpg" alt="Weather Dashboard">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="float-left"> Weather Dashboard</h3>
+                            <h3 class="float-right">JavaScript, HTML, CSS</h3>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href="https://vickphat.github.io/weather-dash/" target="blank">
+                            <img class="d-block w-100" style="max-width: 80rem; max-height: 40rem;"
+                                src="./Assets/images/weather2.jpg" alt="Weather Dashboard">
+                        </a>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="float-left"> Weather Dashboard</h3>
+                            <h3 class="float-right">JavaScript, HTML, CSS</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
