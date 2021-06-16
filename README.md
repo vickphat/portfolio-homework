@@ -51,5 +51,13 @@ In the contact section, I added a link to my LinkedIn. I also added icons here a
 <img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio4.JPG">
 <img src="https://github.com/vickphat/vick-portfolio/blob/master/Assets/images/updatedportfolio5.JPG">
 
+# UPDATED PROFILE #2
+
+For this update, I changed the first page to be only the "about me" section. I created seperate html files for the applications and the contact section. For the about me page, I made my profile picture smaller so that it could fit the page better. For the applications html, I swapped out one of the applications and I also added a couple more into the slides. Fot the contact section, I decided to get rid of my unordered list and create buttons that when clicked, will redirect to the page that the user clicks on. I also made the buttons to be the icons of the page that it will direct to. For my resume, I got rid of the seperate html page entirely. I decided to just have the resume button in the navbar to be a button that will redirect the user to another page so that they may view and download my resume. 
+
+<img src= "./Assets/images/updateMain.JPG">
+<img src= "./Assets/images/updateMain2.JPG">
+<img src= "./Assets/images/updateMain3.JPG">
+
 <h2>Link To Portfolio</h2>
 https://vickphat.github.io/vick-portfolio/
